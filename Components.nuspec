@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Components</id>
+    <version>1.0.1</version>
+    <authors>Zoho Corporation Private Limited</authors>
+    <description>Package Description</description>
+    <copyright>Zoho Corporation Private Limited</copyright>
+    <dependencies>
+      <group targetFramework="uap10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$platform$\$configuration$\Components.dll" target="lib\uap10.0" />
+    <file src="bin\$platform$\$configuration$\Components.pdb" target="lib\uap10.0" />
+    <file src="bin\$platform$\$configuration$\Components.pri" target="lib\uap10.0" />
+    <file src="bin\$platform$\$configuration$\**\*.xaml" target="lib\uap10.0" />
+    <file src="bin\$platform$\$configuration$\Components\Components.xr.xml" target="lib\uap10.0\Components" />
+  </files>
+</package>  
